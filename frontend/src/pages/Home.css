@@ -1,0 +1,6 @@
+.nav-itens{
+    cursor: pointer;
+}
+.nav-itens:hover{
+    color: aqua;
+}
