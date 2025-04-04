@@ -1,88 +1,95 @@
 # FastAPI Study 🚀
 
-Este repositório é um projeto de estudo dedicado ao framework **FastAPI**, que permite a construção de APIs web de forma rápida e eficiente com Python.
+This repository is a study project dedicated to the **FastAPI** framework, which allows for building web APIs quickly and efficiently using Python.
 
-## Objetivo 🎯
+## Purpose 🎯
 
-O objetivo deste projeto é explorar as funcionalidades do FastAPI e aprender a desenvolver uma aplicação web utilizando este framework.
+The goal of this project is to explore FastAPI’s features and learn how to develop a web application using this framework.
 
-## Estrutura do Projeto 📁
+## Project Structure 📁
 
 ```
 FastAPI_Study/
 │
-├── backend/        # Código do backend
-│   ├── main.py     # Arquivo principal da aplicação FastAPI
-│   └── ...         # Outros arquivos e pastas do backend
+├── backend/        # Backend source code
+│   ├── main.py     # Main FastAPI application file
+│   └── ...         # Other backend files and folders
 │
-├── frontend/       # Código do frontend
-│   ├── index.html  # Página principal
-│   └── ...         # Outros arquivos e pastas do frontend
+├── frontend/       # Frontend source code
+│   ├── index.html  # Main page
+│   └── ...         # Other frontend files and folders
 │
-└── README.md       # Este arquivo
+└── README.md       # This file
 ```
 
-
-## Tecnologias Utilizadas 🛠️
+## Technologies Used 🛠️
 
 ### Backend
-- **Python**: Linguagem principal
-- **FastAPI**: Framework para construção da API
-- **SQLAlchemy**: ORM para banco de dados
-- **Uvicorn**: Servidor ASGI
+- **Python**: Main programming language
+- **FastAPI**: Web API framework
+- **SQLAlchemy**: ORM for database interactions
+- **Uvicorn**: ASGI server
 
 ### Frontend
-- **React**: Biblioteca para construção de interfaces
-- **Vite**: Ferramenta de build
-- **React Router**: Navegação entre páginas
-- **Tailwind CSS**: Framework CSS utilitário
+- **React**: UI library
+- **Vite**: Build tool
+- **React Router**: Page routing
+- **Tailwind CSS**: Utility-first CSS framework
 
-## Como Executar o Projeto 💻
+## How to Run the Project 💻
 
-### Pré-requisitos
+### Prerequisites
 - Python 3.10+
 - Node.js 16+
 - Git
 
 ### Backend 👨‍💻
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu-usuario/ecommerce.git
-   
-2. Navegue até o diretório do backend:
+   git clone https://github.com/your-username/ecommerce.git
+   ```
+
+2. Navigate to the backend directory:
    ```bash
    cd ./backend
    ```
-4. Crie um ambiente virtual e inicie-o:
+
+3. Create and activate a virtual environment:
    ```bash
    py -m venv .venv
    .venv\Scripts\activate
    ```
-   
-4. Instale as dependências necessárias:
+
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Execute a aplicação:
+5. Run the application:
    ```bash
    uvicorn main:app --reload
    ```
 
 ### Frontend ⚛️
 
-1. Navegue até o diretório do frontend:
+1. Navigate to the frontend directory:
    ```bash
    cd ./frontend
    ```
 
-2. Baixe as dependências:
+2. Install the dependencies:
    ```bash
-   npm i
+   npm install
    ```
 
-3. Execute a aplicação.
-    ```bash
+3. Start the application:
+   ```bash
    npm run dev
    ```
+
+---
+
+## 🔍 Project Summary
+
+**FastAPI Study** is a hands-on learning project focused on building a full-stack web application using FastAPI for the backend and React for the frontend. It covers API development, database integration with SQLAlchemy, and modern frontend practices with Vite and Tailwind CSS. Perfect for developers exploring FastAPI or building a modern web stack.
