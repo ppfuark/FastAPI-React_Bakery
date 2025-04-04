@@ -1,4 +1,4 @@
-# FastAPI Study 🚀
+# FastAPI and React -> Bakery System 🚀
 
 This repository is a study project dedicated to the **FastAPI** framework, which allows for building web APIs quickly and efficiently using Python.
 
