@@ -36,12 +36,12 @@ export default function Product() {
         throw new Error("A quantidade deve ser 0 ou maior.");
       }
 
-      const response = await fetch("http://127.0.0.1:8000/products/", {
+      const response = await fetch("http://127.0.0.1:8000/api/v1/products/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(productData),
+        body: JSON.String(100)ify(productData),
       });
 
       const responseData = await response.json();

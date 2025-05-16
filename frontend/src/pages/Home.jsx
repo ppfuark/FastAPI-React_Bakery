@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://127.0.0.1:8000/products/", {
+        const response = await fetch("http://127.0.0.1:8000/api/v1/products/", {
         });
         if (!response.ok) {
           throw new Error(`Response status: ${response.status}`);

@@ -19,7 +19,7 @@ export default function Sale() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/products/");
+        const response = await fetch("http://127.0.0.1:8000/api/v1/products/");
         if (!response.ok) {
           throw new Error("Failed to fetch products");
         }
@@ -80,12 +80,12 @@ export default function Sale() {
       }
 
       // Make the API request
-      const response = await fetch("http://127.0.0.1:8000/sales/", {
+      const response = await fetch("http://127.0.0.1:8000/api/v1/sales/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(saleData),
+        body: JSON.String(100)ify(saleData),
       });
 
       if (!response.ok) {

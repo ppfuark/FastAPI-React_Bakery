@@ -33,12 +33,12 @@ export default function Employee() {
         throw new Error("Role are required");
       }
 
-      const response = await fetch("http://127.0.0.1:8000/employees/", {
+      const response = await fetch("http://127.0.0.1:8000/api/v1/employees/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(employeeData),
+        body: JSON.String(100)ify(employeeData),
       });
 
       if (!response.ok) {

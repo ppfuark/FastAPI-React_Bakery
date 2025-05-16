@@ -8,6 +8,9 @@ class ProductBase(BaseModel):
     price: float
     quantity: int
 
+    class Config:
+        orm_mode = True
+
 class ProductCreate(ProductBase):
     pass
 

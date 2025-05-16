@@ -6,8 +6,8 @@ from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 
 
-from models import Base, Product, Card, Employee, Supplier, Sale, CardProduct, engine, sale_product  
-from schemas import (
+from backend.models.all_models import Base, Product, Card, Employee, Supplier, Sale, CardProduct, engine, sale_product  
+from backend.schemas.schemas import (
     ProductCreate, ProductResponse, ProductUpdate,
     CardCreate, CardResponse, CardProductCreate, CardProductResponse,
     EmployeeCreate, EmployeeResponse,

@@ -11,7 +11,7 @@ export default function Sales() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch("http://127.0.0.1:8000/sales/");
+                const response = await fetch("http://127.0.0.1:8000/api/v1/sales/");
                 if (!response.ok) {
                     throw new Error(`Response status: ${response.status}`);
                 }
